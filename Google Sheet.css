@@ -136,7 +136,7 @@ label {
     overflow: hidden;
     border-radius: 8px;
     position: absolute; 
-    bottom: 50px;
+    bottom: 0;
     left: 0; 
     right: 0; /* Align with the right edge of the container */
     display: flex;
