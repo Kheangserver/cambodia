@@ -236,3 +236,15 @@ label {
         height: auto; /* Maintain aspect ratio on smaller screens */
     }
 }
+@media (max-width: 375px) {
+    .slider {
+        bottom: 0; /* Less space from the bottom on smaller screens */
+        max-width: 100%; /* Full width on smaller screens */
+        margin: 10px auto; /* Centering horizontally */
+    }
+
+    .slide img {
+        height: auto; /* Maintain aspect ratio on smaller screens */
+    }
+}
+
